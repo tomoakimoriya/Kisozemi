@@ -16,9 +16,7 @@
         
         <SplitView x:Name="Splitter" IsPaneOpen="True" Grid.Column="1" DisplayMode="Inline" Grid.Row="1">
             <SplitView.Pane>
-                <RelativePanel x:Name ="SidePanel" Margin="10,10,10,10">
-                    <Button x:Name="ClearButton" Margin="10,10,10,10" RelativePanel.AlignLeftWithPanel="True" Content="Canvas Clear"></Button>
-                </RelativePanel>
+                <RelativePanel x:Name ="SidePanel" Margin="10,10,10,10"/>
             </SplitView.Pane>
             <RelativePanel>
                 <Canvas x:Name="MainCanvas" Margin="0,5,0,0" RelativePanel.AlignTopWithPanel="True" RelativePanel.Above="StatusPanel" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignLeftWithPanel="True" Background="White">
